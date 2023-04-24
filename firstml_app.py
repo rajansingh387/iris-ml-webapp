@@ -25,7 +25,7 @@ if st.button('classify'):
     if option=='logreg':
         st.success(lr.predict(test))
     elif option=='knn':
-        st.sucess(kn.predict(test))
+        st.success(kn.predict(test))
     else:
-        st.sucess(rf.predict(test))
+        st.success(rf.predict(test))
 
